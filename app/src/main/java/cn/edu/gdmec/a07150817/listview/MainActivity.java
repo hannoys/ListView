@@ -171,7 +171,7 @@ public class MainActivity extends AppCompatActivity {
                     holder.title = (TextView) convertView.findViewById(R.id.title);
                     holder.info = (TextView)convertView.findViewById(R.id.info);
                     holder.btn =(Button) convertView.findViewById(R.id.btn);
-                    holder.layout = convertView.findViewById(R.id.l1);
+                    holder.layout = (LinearLayout) convertView.findViewById(R.id.l1);
                     convertView.setTag(holder);
                 }else{
                     holder = (ViewHolder)convertView.getTag();
